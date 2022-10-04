@@ -50,7 +50,7 @@ export default function Home() {
                 <p>
                     Valorant currently has 19 individual characters that are called "agents". They have their own unique abilities that provide strategies to help a team win. The
                     game provides 17 different guns that have a variety of accuracy, damage, and firing distance. Heavy and light armor are protective options provided to the
-                    players. Armor requires opponents to deal more damage to achieve kills. Credits are given at the beginning of each round whihc allow players to purchase agent abilities,
+                    players. Armor requires opponents to deal more damage to achieve kills. Credits are given at the beginning of each round which allow players to purchase agent abilities,
                     weapons, and armor. Credits are the in game currency that is provided every round to the players whether the team wins or
                     loses the round. If individuals or teams can accomplish objectives such as winning the round, getting individual kills, or planting the spike on the attacking team
                     they will earn more credits for themselves or for the team. If a player isn't killed during a round, guns and any leftover armor they still have will carry over to the next round

@@ -39,6 +39,8 @@ export default function Weapons() {
             )
         })
 
+        console.log(weapon)
+
         return (
             <div
                 key={weapon.uuid}
@@ -64,7 +66,20 @@ export default function Weapons() {
                                 <h4>Has Aim Down Sites - {aimDownSites}</h4>
                                 <h4>Cost ${weapon.shopData?.cost}</h4>
                             </>
-                            : null}
+                            : 
+                            <>
+                                <h4>Knifing from Front Damage:</h4>
+                                <ul>
+                                    <li>Left-click does 50 damage.</li>
+                                    <li>Right-click does 75 damage.</li>
+                                </ul>
+                                <h4>Knifing from Back or Side Damage:</h4>
+                                <ul>
+                                    <li>Left-click does 100 damage</li>
+                                    <li>Right-click does 150 damage</li>
+                                </ul>
+                            </>
+                            }
                             
                     </div> 
                     {distance}

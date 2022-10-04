@@ -51,7 +51,7 @@ export default function AboutAgents() {
                 Learning agents not only requires players to know what their abilities do, but what maps they can be optimized for. When they're used improperly, abilities can be
                 restricted due to the size or angles of a map. If players want to learn abilities on specific maps in private, they can make a custom game for themselves.
                 This allows players to become more familiar on how their agents work and can be best utilized in any map or situation. Every agent has an ultimate ability
-                that is not availble to purchase. These abilities are unlocked by reaching a certain amount of ultimate points. The total points varies with each agent. Indivdual
+                that is not availble to purchase. These abilities are unlocked by reaching a certain amount of ultimate points. The total points varies with each agent. Individual
                 players can gain these points by getting kills, dying, collecting ultimate orbs on the map, or planting and defusing the spike.
             </p>
             <button onClick={() => navigate("/Agents")}>List of Agents</button>
